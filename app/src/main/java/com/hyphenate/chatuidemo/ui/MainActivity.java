@@ -20,10 +20,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.PowerManager;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -41,8 +38,8 @@ import com.hyphenate.EMMessageListener;
 import com.hyphenate.EMMultiDeviceListener;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMMessage;
+import com.hyphenate.chatuidemo.ChatHelper;
 import com.hyphenate.chatuidemo.Constant;
-import com.hyphenate.chatuidemo.DemoHelper;
 import com.hyphenate.chatuidemo.R;
 import com.hyphenate.chatuidemo.db.InviteMessgeDao;
 import com.hyphenate.chatuidemo.db.UserDao;
@@ -83,8 +80,9 @@ public class MainActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+		/*if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 		    String packageName = getPackageName();
+		    //电池优化管理，
 		    PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
 		    if (!pm.isIgnoringBatteryOptimizations(packageName)) {
 				try {
@@ -97,14 +95,14 @@ public class MainActivity extends BaseActivity {
 				} catch (Exception e) {
 				}
 			}
-		}
+		}*/
 
-		//make sure activity will not in background if user is logged into another device or removed
+		//账户信息被删除或者密码被修改或者账户在另外一台设备登陆,去登陆页
 		if (getIntent() != null &&
 				(getIntent().getBooleanExtra(Constant.ACCOUNT_REMOVED, false) ||
 						getIntent().getBooleanExtra(Constant.ACCOUNT_KICKED_BY_CHANGE_PASSWORD, false) ||
 						getIntent().getBooleanExtra(Constant.ACCOUNT_KICKED_BY_OTHER_DEVICE, false))) {
-			DemoHelper.getInstance().logout(false,null);
+			ChatHelper.getInstance().logout(false,null);
 			finish();
 			startActivity(new Intent(this, LoginActivity.class));
 			return;
@@ -219,7 +217,7 @@ public class MainActivity extends BaseActivity {
 		public void onMessageReceived(List<EMMessage> messages) {
 			// notify new message
 		    for (EMMessage message : messages) {
-		        DemoHelper.getInstance().getNotifier().onNewMsg(message);
+		        ChatHelper.getInstance().getNotifier().onNewMsg(message);
 		    }
 			refreshUIWithMessage();
 		}
@@ -428,7 +426,7 @@ public class MainActivity extends BaseActivity {
 
 		// unregister this event listener when this activity enters the
 		// background
-		DemoHelper sdkHelper = DemoHelper.getInstance();
+		ChatHelper sdkHelper = ChatHelper.getInstance();
 		sdkHelper.pushActivity(this);
 
 		EMClient.getInstance().chatManager().addMessageListener(messageListener);
@@ -438,7 +436,7 @@ public class MainActivity extends BaseActivity {
 	protected void onStop() {
 		EMClient.getInstance().chatManager().removeMessageListener(messageListener);
 		EMClient.getInstance().removeClientListener(clientListener);
-		DemoHelper sdkHelper = DemoHelper.getInstance();
+		ChatHelper sdkHelper = ChatHelper.getInstance();
 		sdkHelper.popActivity(this);
 
 		super.onStop();
@@ -482,7 +480,7 @@ public class MainActivity extends BaseActivity {
 	 */
 	private void showExceptionDialog(String exceptionType) {
 	    isExceptionDialogShow = true;
-		DemoHelper.getInstance().logout(false,null);
+		ChatHelper.getInstance().logout(false,null);
 		String st = getResources().getString(R.string.Logoff_notification);
 		if (!MainActivity.this.isFinishing()) {
 			// clear up global variables
@@ -542,7 +540,7 @@ public class MainActivity extends BaseActivity {
             
             @Override
             public void onReceive(Context context, Intent intent) {
-                DemoHelper.getInstance().logout(false,new EMCallBack() {
+                ChatHelper.getInstance().logout(false,new EMCallBack() {
                     
                     @Override
                     public void onSuccess() {

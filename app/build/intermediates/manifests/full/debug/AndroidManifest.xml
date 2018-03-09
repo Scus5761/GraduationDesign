@@ -48,16 +48,10 @@
     <uses-permission android:name="com.hyphenate.chatuidemo.permission.C2D_MESSAGE" />
 
     <application
-        android:name="com.hyphenate.chatuidemo.DemoApplication"
+        android:name="com.hyphenate.chatuidemo.ChatApplication"
         android:allowBackup="true"
-        android:icon="@drawable/em_logo_uidemo"
+        android:icon="@drawable/logo_chat_app"
         android:label="@string/app_name" >
-        <activity
-            android:name="com.hyphenate.chatuidemo.ui.MainActivity"
-            android:launchMode="singleTask"
-            android:screenOrientation="portrait"
-            android:theme="@style/horizontal_slide"
-            android:windowSoftInputMode="adjustPan" />
 
         <!-- 开屏页 -->
         <activity
@@ -70,6 +64,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.hyphenate.chatuidemo.ui.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide"
+            android:windowSoftInputMode="adjustPan" />
 
         <!-- 登陆 -->
         <activity

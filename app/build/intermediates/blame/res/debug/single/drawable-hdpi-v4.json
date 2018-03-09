@@ -520,6 +520,10 @@
         "source": "C:\\androidWork\\GraduationDesign\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_show_head_toast_bg.9.png"
     },
     {
+        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo_chat_app.jpg",
+        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\logo_chat_app.jpg"
+    },
+    {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_1.png",
         "source": "C:\\androidWork\\GraduationDesign\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ee_1.png"
     },

@@ -12,7 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chatuidemo.Constant;
-import com.hyphenate.chatuidemo.DemoHelper;
+import com.hyphenate.chatuidemo.ChatHelper;
 import com.hyphenate.chatuidemo.R;
 import com.hyphenate.chatuidemo.ui.BaseActivity;
 import com.hyphenate.easeui.adapter.EaseContactAdapter;
@@ -42,7 +42,7 @@ public class ConferenceInviteJoinActivity extends BaseActivity {
         }
         // get contact list
         final List<EaseUser> alluserList = new ArrayList<EaseUser>();
-        for (EaseUser user : DemoHelper.getInstance().getContactList().values()) {
+        for (EaseUser user : ChatHelper.getInstance().getContactList().values()) {
             if (!user.getUsername().equals(Constant.NEW_FRIENDS_USERNAME)
                     & !user.getUsername().equals(Constant.GROUP_USERNAME)
                     & !user.getUsername().equals(Constant.CHAT_ROOM)

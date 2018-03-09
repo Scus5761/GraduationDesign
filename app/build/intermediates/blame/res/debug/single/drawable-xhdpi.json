@@ -12,12 +12,12 @@
         "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xhdpi\\em_unread_dot.9.png"
     },
     {
-        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_voice_call_pressed.png",
-        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xhdpi\\em_chat_voice_call_pressed.png"
-    },
-    {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_to_group_details_normal.png",
         "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xhdpi\\em_to_group_details_normal.png"
+    },
+    {
+        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_voice_call_pressed.png",
+        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-xhdpi\\em_chat_voice_call_pressed.png"
     },
     {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\em_chat_file_normal.png",

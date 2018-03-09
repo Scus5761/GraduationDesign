@@ -43,7 +43,7 @@ public class ChatApplication extends Application {
 		// bugly end
 
         //init demo helper
-        DemoHelper.getInstance().init(applicationContext);
+        ChatHelper.getInstance().init(applicationContext);
 	}
 
 	public static ChatApplication getInstance() {

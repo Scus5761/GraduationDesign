@@ -7,7 +7,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.hyphenate.chat.EMClient;
-import com.hyphenate.chatuidemo.DemoHelper;
+import com.hyphenate.chatuidemo.ChatHelper;
 import com.hyphenate.chatuidemo.R;
 import com.hyphenate.util.EasyUtils;
 
@@ -24,12 +24,12 @@ public class SplashActivity extends BaseActivity {
 		setContentView(R.layout.em_activity_splash);
 		super.onCreate(arg0);
 
-		DemoHelper.getInstance().initHandler(this.getMainLooper());
+		ChatHelper.getInstance().initHandler(this.getMainLooper());
 
 		RelativeLayout rootLayout = (RelativeLayout) findViewById(R.id.splash_root);
 		TextView versionText = (TextView) findViewById(R.id.tv_version);
 
-		versionText.setText(getVersion());
+		versionText.setText("1.0.0");
 		AlphaAnimation animation = new AlphaAnimation(0.3f, 1.0f);
 		animation.setDuration(1500);
 		rootLayout.startAnimation(animation);
@@ -41,7 +41,7 @@ public class SplashActivity extends BaseActivity {
 
 		new Thread(new Runnable() {
 			public void run() {
-				if (DemoHelper.getInstance().isLoggedIn()) {
+				if (ChatHelper.getInstance().isLoggedIn()) {
 					// auto login mode, make sure all group and conversation is loaed before enter the main screen
 					long start = System.currentTimeMillis();
 					EMClient.getInstance().chatManager().loadAllConversations();
@@ -76,11 +76,5 @@ public class SplashActivity extends BaseActivity {
 		}).start();
 
 	}
-	
-	/**
-	 * get sdk version
-	 */
-	private String getVersion() {
-	    return EMClient.getInstance().VERSION;
-	}
+
 }
