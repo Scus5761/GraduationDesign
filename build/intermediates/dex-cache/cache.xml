@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\androidWork\GraduationDesign\examples\easeui\easeui\build\intermediates\bundles\default\libs\MiPush_SDK_Client_2_2_19.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6231c3f3409df7b3172bc5e89f68fbc6beec733e">
+        <dex dex="C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\MiPush_SDK_Client_2_2_19_15e7219f498b70e4c717e10c016bf1d24687942b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidWork\GraduationDesign\examples\easeui\easeui\build\intermediates\bundles\default\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f6a788057b9f17f30905e43c2b4ed3e02dc04da3">
+        <dex dex="C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\org.apache.http.legacy_1a669c800d89d4b6be8dcf5c358f5c4d23add504\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidWork\GraduationDesign\examples\easeui\easeui\build\intermediates\bundles\default\libs\HMSSdkPush_2.5.1.300.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ce01f6625d2118538e8cad76681dd04d89416fbc">
+        <dex dex="C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\HMSSdkPush_2.5.1.300_7153fafb442deaa660f400130911dfbae26ed5b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidWork\GraduationDesign\examples\easeui\easeui\build\intermediates\bundles\default\libs\hyphenatechat_3.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9c719369ed0d54fc14d473c29b51c5cf377ef308">
+        <dex dex="C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\hyphenatechat_3.3.9_9ac070e5d1dc1b6325d1681060e9b72e5222a192\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidWork\GraduationDesign\examples\easeui\easeui\build\intermediates\bundles\default\libs\HMSSdkBase_2.5.1.300.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6a0b76ebe78c5c6de6043ccc8071beaa21789f93">
+        <dex dex="C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\HMSSdkBase_2.5.1.300_6fe00c13085a845778e9e0d4883efbb6d9e6ae71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidWork\GraduationDesign\examples\easeui\easeui\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6a1eaaee9692a1ef949f5e57aa83b848da16618b">
+        <dex dex="C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_ae3d5ca73bd94540b221ebb89514d64f168221cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidWork\GraduationDesign\examples\easeui\easeui\build\intermediates\bundles\default\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f1d3eb83228ace176170b6c5c9fa3b792011581b">
+        <dex dex="C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\build\intermediates\transforms\dex\debug\folders\1000\8\BaiduLBS_Android_07d0fb0ff207e5f81bc5dccb72b61cf9c9891b9f\classes.dex" />
+    </item>
+
+</items>
