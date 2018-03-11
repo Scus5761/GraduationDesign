@@ -231,4 +231,16 @@ public class LoginActivity extends BaseActivity {
 			return;
 		}
 	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+       /* switch (requestCode) {
+            case 0:
+                Toast.makeText(this, "", Toast.LENGTH_LONG).show();
+                break;
+            default:
+
+        }*/
+    }
 }

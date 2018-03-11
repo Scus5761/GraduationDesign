@@ -818,11 +818,11 @@ public final class R {
         public static final int ee_7 = 0x7f020109;
         public static final int ee_8 = 0x7f02010a;
         public static final int ee_9 = 0x7f02010b;
-        public static final int googleg_disabled_color_18 = 0x7f020170;
-        public static final int googleg_standard_color_18 = 0x7f020171;
-        public static final int ic_launcher = 0x7f020177;
-        public static final int notification_template_icon_bg = 0x7f02019d;
-        public static final int recall_message_bg = 0x7f02019c;
+        public static final int googleg_disabled_color_18 = 0x7f020171;
+        public static final int googleg_standard_color_18 = 0x7f020172;
+        public static final int ic_launcher = 0x7f020178;
+        public static final int notification_template_icon_bg = 0x7f02019e;
+        public static final int recall_message_bg = 0x7f02019d;
     }
     public static final class id {
         public static final int action0 = 0x7f0b01c5;

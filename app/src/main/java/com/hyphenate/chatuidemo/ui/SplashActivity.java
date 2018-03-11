@@ -17,7 +17,7 @@ import com.hyphenate.util.EasyUtils;
  */
 public class SplashActivity extends BaseActivity {
 
-	private static final int sleepTime = 2000;
+	private static final int sleepTime = 5000;
 
 	@Override
 	protected void onCreate(Bundle arg0) {

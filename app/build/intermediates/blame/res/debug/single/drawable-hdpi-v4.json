@@ -256,6 +256,10 @@
         "source": "C:\\androidWork\\GraduationDesign\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_search_clear_normal.png"
     },
     {
+        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\em_welcome_logo.gif",
+        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\em_welcome_logo.gif"
+    },
+    {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_027.gif",
         "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\icon_027.gif"
     },

@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Scus\\.android\\build-cache\\319bfdb81bfb5a89e483eef0bf53b9f14e39c25c\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
-        "source": "C:\\androidWork\\GraduationDesign\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_message.xml"
-    },
-    {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_add_group.xml",
         "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\layout\\em_row_add_group.xml"
+    },
+    {
+        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
+        "source": "C:\\androidWork\\GraduationDesign\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_received_message.xml"
     },
     {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_listview_footer_view.xml",
@@ -56,12 +56,12 @@
         "source": "C:\\androidWork\\GraduationDesign\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_search_bar.xml"
     },
     {
-        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_recall_message.xml",
-        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\layout\\em_row_recall_message.xml"
-    },
-    {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Scus\\.android\\build-cache\\319bfdb81bfb5a89e483eef0bf53b9f14e39c25c\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_recall_message.xml",
+        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\layout\\em_row_recall_message.xml"
     },
     {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
@@ -84,12 +84,12 @@
         "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\layout\\em_context_menu_for_location.xml"
     },
     {
-        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_new_friends_msg.xml",
-        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\layout\\em_activity_new_friends_msg.xml"
-    },
-    {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_conversation_list.xml",
         "source": "C:\\androidWork\\GraduationDesign\\examples\\easeui\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_fragment_conversation_list.xml"
+    },
+    {
+        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_new_friends_msg.xml",
+        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\layout\\em_activity_new_friends_msg.xml"
     },
     {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",

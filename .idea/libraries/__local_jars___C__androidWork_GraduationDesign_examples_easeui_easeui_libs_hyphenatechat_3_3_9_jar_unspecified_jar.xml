@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../easeui/easeui/libs/hyphenatechat_3.3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../easeui/easeui/libs/HMSSdkBase_2.5.1.300.jar!/" />
     </SOURCES>
   </library>
 </component>
