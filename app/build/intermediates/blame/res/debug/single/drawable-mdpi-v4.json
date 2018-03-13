@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Scus\\.android\\build-cache\\319bfdb81bfb5a89e483eef0bf53b9f14e39c25c\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\Scus\\.android\\build-cache\\319bfdb81bfb5a89e483eef0bf53b9f14e39c25c\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
         "source": "C:\\Users\\Scus\\.android\\build-cache\\13eaa893d5cce93c4dff1b295f0fb7b16a1d34e8\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Scus\\.android\\build-cache\\319bfdb81bfb5a89e483eef0bf53b9f14e39c25c\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",

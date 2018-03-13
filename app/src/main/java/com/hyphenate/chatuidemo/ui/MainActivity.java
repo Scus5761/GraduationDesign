@@ -80,23 +80,6 @@ public class MainActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		/*if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-		    String packageName = getPackageName();
-		    //电池优化管理，
-		    PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-		    if (!pm.isIgnoringBatteryOptimizations(packageName)) {
-				try {
-					//some device doesn't has activity to handle this intent
-					//so add try catch
-					Intent intent = new Intent();
-					intent.setAction(android.provider.Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS);
-					intent.setData(Uri.parse("package:" + packageName));
-					startActivity(intent);
-				} catch (Exception e) {
-				}
-			}
-		}*/
-
 		//账户信息被删除或者密码被修改或者账户在另外一台设备登陆,去登陆页
 		if (getIntent() != null &&
 				(getIntent().getBooleanExtra(Constant.ACCOUNT_REMOVED, false) ||
@@ -112,7 +95,7 @@ public class MainActivity extends BaseActivity {
 			return;
 		}
 		setContentView(R.layout.em_activity_main);
-		// runtime permission for android 6.0, just require all permissions here for simple
+		//安卓6.0以上会有个运行时权限申请
 		requestPermissions();
 
 		initView();
@@ -161,7 +144,7 @@ public class MainActivity extends BaseActivity {
 
 			@Override
 			public void onDenied(String permission) {
-				//Toast.makeText(MainActivity.this, "Permission " + permission + " has been denied", Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "权限 " + permission + " 被拒绝", Toast.LENGTH_SHORT).show();
 			}
 		});
 	}
@@ -176,7 +159,7 @@ public class MainActivity extends BaseActivity {
 		mTabs[0] = (Button) findViewById(R.id.btn_conversation);
 		mTabs[1] = (Button) findViewById(R.id.btn_address_list);
 		mTabs[2] = (Button) findViewById(R.id.btn_setting);
-		// select first tab
+		// 默认选择第一项
 		mTabs[0].setSelected(true);
 	}
 
@@ -476,7 +459,7 @@ public class MainActivity extends BaseActivity {
          return R.string.Network_error;
     }
 	/**
-	 * show the dialog when user met some exception: such as login on another device, user removed or user forbidden
+	 * 异常出现
 	 */
 	private void showExceptionDialog(String exceptionType) {
 	    isExceptionDialogShow = true;
@@ -490,7 +473,6 @@ public class MainActivity extends BaseActivity {
 				    exceptionBuilder.setTitle(st);
 				    exceptionBuilder.setMessage(getExceptionMessageId(exceptionType));	
 				    exceptionBuilder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
-
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
 						dialog.dismiss();
