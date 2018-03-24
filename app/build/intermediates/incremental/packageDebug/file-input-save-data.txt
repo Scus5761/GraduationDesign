@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Mar 24 16:27:53 CST 2018
+#Sat Mar 24 16:37:25 CST 2018
 100.set=ANDROID_RESOURCE
 57.file=C\:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\em_dx_checkbox_gray_on.png
 145.file=C\:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ease_settings_normal.png

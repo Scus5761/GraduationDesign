@@ -2,7 +2,7 @@
 manifest
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:2:1-434:12
 	package
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:4:5-39
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:4:5-49
 		INJECTED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
 		INJECTED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -114,12 +114,12 @@ uses-permission#android.permission.READ_LOGS
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:30:5-68
 	android:name
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:30:22-65
-permission#com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE
+permission#com.hyphenate.graduationdesignchat.permission.MIPUSH_RECEIVE
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:33:5-35:55
 	android:protectionLevel
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:35:9-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:34:9-74
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:34:9-84
 uses-permission#com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:37:5-90
 	android:name
@@ -155,15 +155,15 @@ MERGED from [com.android.support:support-compat:25.2.0] C:\Users\Scus\.android\b
 	android:icon
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:43:9-47
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:41:9-40
-activity#com.hyphenate.chatuidemo.ui.SplashActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:41:9-74
+activity#com.hyphenate.graduationdesignchat.ui.SplashActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:47:9-55:20
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:49:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:50:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:48:13-46
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:48:13-80
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:51:13-54:29
 action#android.intent.action.MAIN
@@ -174,7 +174,7 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:53:17-77
 	android:name
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:53:27-74
-activity#com.hyphenate.chatuidemo.ui.MainActivity
+activity#com.hyphenate.graduationdesignchat.ui.MainActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:58:9-63:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:61:13-49
@@ -185,8 +185,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:62:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:59:13-44
-activity#com.hyphenate.chatuidemo.ui.LoginActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:59:13-78
+activity#com.hyphenate.graduationdesignchat.ui.LoginActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:66:9-70:71
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:68:13-49
@@ -195,8 +195,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:69:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:67:13-45
-activity#com.hyphenate.chatuidemo.ui.ServiceCheckActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:67:13-79
+activity#com.hyphenate.graduationdesignchat.ui.ServiceCheckActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:73:9-77:71
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:75:13-49
@@ -205,8 +205,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:76:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:74:13-52
-activity#com.hyphenate.chatuidemo.ui.RegisterActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:74:13-86
+activity#com.hyphenate.graduationdesignchat.ui.RegisterActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:80:9-84:71
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:82:13-49
@@ -215,8 +215,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:83:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:81:13-48
-activity#com.hyphenate.chatuidemo.ui.ChatActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:81:13-82
+activity#com.hyphenate.graduationdesignchat.ui.ChatActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:86:9-91:58
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:89:13-49
@@ -227,8 +227,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:90:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:87:13-44
-activity#com.hyphenate.chatuidemo.ui.AddContactActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:87:13-78
+activity#com.hyphenate.graduationdesignchat.ui.AddContactActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:93:9-97:58
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:95:13-49
@@ -237,16 +237,16 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:96:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:94:13-50
-activity#com.hyphenate.chatuidemo.ui.GroupDetailsActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:94:13-84
+activity#com.hyphenate.graduationdesignchat.ui.GroupDetailsActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:99:9-102:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:101:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:102:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:100:13-52
-activity#com.hyphenate.chatuidemo.ui.GroupsActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:100:13-86
+activity#com.hyphenate.graduationdesignchat.ui.GroupsActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:104:9-108:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:106:13-49
@@ -255,16 +255,16 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:107:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:105:13-46
-activity#com.hyphenate.chatuidemo.ui.ChatRoomDetailsActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:105:13-80
+activity#com.hyphenate.graduationdesignchat.ui.ChatRoomDetailsActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:111:9-114:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:113:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:114:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:112:13-55
-activity#com.hyphenate.chatuidemo.ui.NewChatRoomActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:112:13-89
+activity#com.hyphenate.graduationdesignchat.ui.NewChatRoomActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:116:9-120:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:118:13-49
@@ -273,8 +273,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:119:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:117:13-51
-activity#com.hyphenate.chatuidemo.ui.NewGroupActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:117:13-85
+activity#com.hyphenate.graduationdesignchat.ui.NewGroupActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:123:9-127:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:125:13-49
@@ -283,16 +283,16 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:126:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:124:13-48
-activity#com.hyphenate.chatuidemo.ui.ExitGroupDialog
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:124:13-82
+activity#com.hyphenate.graduationdesignchat.ui.ExitGroupDialog
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:129:9-132:58
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:131:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:132:13-55
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:130:13-47
-activity#com.hyphenate.chatuidemo.ui.GroupPickContactsActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:130:13-81
+activity#com.hyphenate.graduationdesignchat.ui.GroupPickContactsActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:134:9-138:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:136:13-49
@@ -301,15 +301,15 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:137:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:135:13-57
-activity#com.hyphenate.chatuidemo.ui.PickAtUserActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:135:13-91
+activity#com.hyphenate.graduationdesignchat.ui.PickAtUserActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:139:9-142:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:141:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:142:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:140:13-50
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:140:13-84
 activity#com.hyphenate.easeui.ui.EaseBaiduMapActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:144:9-147:55
 	android:screenOrientation
@@ -318,15 +318,15 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:147:13-52
 	android:name
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:145:13-72
-activity#com.hyphenate.chatuidemo.ui.NewFriendsMsgActivity
+activity#com.hyphenate.graduationdesignchat.ui.NewFriendsMsgActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:150:9-153:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:152:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:153:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:151:13-53
-activity#com.hyphenate.chatuidemo.ui.ForwardMessageActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:151:13-87
+activity#com.hyphenate.graduationdesignchat.ui.ForwardMessageActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:155:9-159:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:157:13-49
@@ -335,15 +335,15 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:158:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:156:13-54
-activity#com.hyphenate.chatuidemo.ui.ContextMenuActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:156:13-88
+activity#com.hyphenate.graduationdesignchat.ui.ContextMenuActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:161:9-164:52
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:163:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:164:13-49
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:162:13-51
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:162:13-85
 activity#com.hyphenate.easeui.ui.EaseShowBigImageActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:166:9-169:55
 	android:screenOrientation
@@ -360,15 +360,15 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:174:13-52
 	android:name
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:172:13-78
-activity#com.hyphenate.chatuidemo.ui.BlacklistActivity
+activity#com.hyphenate.graduationdesignchat.ui.BlacklistActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:176:9-179:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:178:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:179:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:177:13-49
-activity#com.hyphenate.chatuidemo.ui.PublicGroupsActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:177:13-83
+activity#com.hyphenate.graduationdesignchat.ui.PublicGroupsActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:182:9-186:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:184:13-49
@@ -377,8 +377,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:185:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:183:13-52
-activity#com.hyphenate.chatuidemo.ui.PublicChatRoomsActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:183:13-86
+activity#com.hyphenate.graduationdesignchat.ui.PublicChatRoomsActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:187:9-191:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:189:13-49
@@ -387,8 +387,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:190:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:188:13-55
-activity#com.hyphenate.chatuidemo.ui.VoiceCallActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:188:13-89
+activity#com.hyphenate.graduationdesignchat.ui.VoiceCallActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:194:9-198:51
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:197:13-49
@@ -397,8 +397,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:198:13-48
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:195:13-49
-activity#com.hyphenate.chatuidemo.ui.VideoCallActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:195:13-83
+activity#com.hyphenate.graduationdesignchat.ui.VideoCallActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:200:9-205:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:204:13-49
@@ -409,8 +409,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:205:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:201:13-49
-activity#com.hyphenate.chatuidemo.conference.ConferenceActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:201:13-83
+activity#com.hyphenate.graduationdesignchat.conference.ConferenceActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:207:9-212:54
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:211:13-49
@@ -421,8 +421,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:212:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:208:13-58
-activity#com.hyphenate.chatuidemo.conference.ConferenceInviteJoinActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:208:13-92
+activity#com.hyphenate.graduationdesignchat.conference.ConferenceInviteJoinActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:214:9-218:54
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:217:13-49
@@ -431,24 +431,24 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:218:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:215:13-68
-activity#com.hyphenate.chatuidemo.ui.GroupSimpleDetailActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:215:13-102
+activity#com.hyphenate.graduationdesignchat.ui.GroupSimpleDetailActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:220:9-223:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:222:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:223:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:221:13-57
-activity#com.hyphenate.chatuidemo.ui.GroupBlacklistActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:221:13-91
+activity#com.hyphenate.graduationdesignchat.ui.GroupBlacklistActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:225:9-228:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:227:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:228:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:226:13-54
-activity#com.hyphenate.chatuidemo.ui.GroupSearchMessageActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:226:13-88
+activity#com.hyphenate.graduationdesignchat.ui.GroupSearchMessageActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:229:9-233:58
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:231:13-49
@@ -457,16 +457,16 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:232:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:230:13-58
-activity#com.hyphenate.chatuidemo.ui.PublicGroupsSeachActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:230:13-92
+activity#com.hyphenate.graduationdesignchat.ui.PublicGroupsSeachActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:234:9-237:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:236:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:237:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:235:13-57
-activity#com.hyphenate.chatuidemo.ui.EditActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:235:13-91
+activity#com.hyphenate.graduationdesignchat.ui.EditActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:238:9-242:58
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:240:13-49
@@ -475,15 +475,15 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:241:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:239:13-44
-activity#com.hyphenate.chatuidemo.ui.SharedFilesActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:239:13-78
+activity#com.hyphenate.graduationdesignchat.ui.SharedFilesActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:243:9-246:15
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:244:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:245:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:243:19-57
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:243:19-91
 activity#com.hyphenate.easeui.ui.EaseShowVideoActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:247:9-251:63
 	android:screenOrientation
@@ -514,7 +514,7 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:262:13-52
 	android:name
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:260:13-79
-activity#com.hyphenate.chatuidemo.ui.ImageGridActivity
+activity#com.hyphenate.graduationdesignchat.ui.ImageGridActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:265:9-269:63
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:267:13-49
@@ -523,8 +523,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:268:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:266:13-49
-activity#com.hyphenate.chatuidemo.ui.RecorderVideoActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:266:13-83
+activity#com.hyphenate.graduationdesignchat.ui.RecorderVideoActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:270:9-274:63
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:272:13-49
@@ -533,8 +533,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:273:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:271:13-53
-activity#com.hyphenate.chatuidemo.ui.DiagnoseActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:271:13-87
+activity#com.hyphenate.graduationdesignchat.ui.DiagnoseActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:276:9-280:63
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:278:13-49
@@ -543,8 +543,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:279:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:277:13-48
-activity#com.hyphenate.chatuidemo.ui.MultiDeviceActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:277:13-82
+activity#com.hyphenate.graduationdesignchat.ui.MultiDeviceActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:281:9-284:68
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:282:19-55
@@ -553,16 +553,16 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:283:19-58
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:281:19-57
-activity#com.hyphenate.chatuidemo.ui.NamePasswordActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:281:19-91
+activity#com.hyphenate.graduationdesignchat.ui.NamePasswordActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:285:9-287:60
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:286:19-55
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:287:19-58
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:285:19-58
-activity#com.hyphenate.chatuidemo.ui.OfflinePushNickActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:285:19-92
+activity#com.hyphenate.graduationdesignchat.ui.OfflinePushNickActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:290:9-294:63
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:292:13-49
@@ -571,8 +571,8 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:293:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:291:13-55
-activity#com.hyphenate.chatuidemo.ui.RobotsActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:291:13-89
+activity#com.hyphenate.graduationdesignchat.ui.RobotsActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:296:9-300:63
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:298:13-49
@@ -581,43 +581,43 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:299:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:297:13-46
-activity#com.hyphenate.chatuidemo.ui.UserProfileActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:297:13-80
+activity#com.hyphenate.graduationdesignchat.ui.UserProfileActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:302:9-305:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:304:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:305:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:303:13-51
-activity#com.hyphenate.chatuidemo.ui.SetServersActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:303:13-85
+activity#com.hyphenate.graduationdesignchat.ui.SetServersActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:306:9-309:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:308:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:309:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:307:13-50
-activity#com.hyphenate.chatuidemo.ui.OfflinePushSettingsActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:307:13-84
+activity#com.hyphenate.graduationdesignchat.ui.OfflinePushSettingsActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:310:9-313:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:312:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:313:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:311:13-59
-activity#com.hyphenate.chatuidemo.ui.CallOptionActivity
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:311:13-93
+activity#com.hyphenate.graduationdesignchat.ui.CallOptionActivity
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:314:9-317:55
 	android:screenOrientation
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:316:13-49
 	android:theme
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:317:13-52
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:315:13-50
-receiver#com.hyphenate.chatuidemo.receiver.StartServiceReceiver
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:315:13-84
+receiver#com.hyphenate.graduationdesignchat.receiver.StartServiceReceiver
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:320:9-327:20
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:320:19-64
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:320:19-98
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.LAUNCHER
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:321:13-326:29
 	android:priority
@@ -630,20 +630,20 @@ action#android.intent.action.QUICKBOOT_POWERON
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:323:17-82
 	android:name
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:323:25-79
-service#com.hyphenate.chatuidemo.fcm.EMFCMMSGService
+service#com.hyphenate.graduationdesignchat.fcm.EMFCMMSGService
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:330:9-334:19
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:330:18-53
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:330:18-87
 intent-filter#com.google.firebase.MESSAGING_EVENT
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:331:13-333:29
 action#com.google.firebase.MESSAGING_EVENT
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:332:17-78
 	android:name
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:332:25-75
-service#com.hyphenate.chatuidemo.fcm.EMFCMTokenRefreshService
+service#com.hyphenate.graduationdesignchat.fcm.EMFCMTokenRefreshService
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:336:9-340:19
 	android:name
-		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:336:18-62
+		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:336:18-96
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:337:13-339:29
 action#com.google.firebase.INSTANCE_ID_EVENT

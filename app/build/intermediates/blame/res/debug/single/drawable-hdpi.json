@@ -8,24 +8,24 @@
         "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\icon_024_cover.png"
     },
     {
-        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_mm_title_act_btn_normal.9.png",
-        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\em_mm_title_act_btn_normal.9.png"
-    },
-    {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_add_btn_nor.png",
         "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\em_smiley_add_btn_nor.png"
+    },
+    {
+        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_mm_title_act_btn_normal.9.png",
+        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\em_mm_title_act_btn_normal.9.png"
     },
     {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_camera_switch_normal.9.png",
         "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\em_camera_switch_normal.9.png"
     },
     {
-        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_007_cover.png",
-        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\icon_007_cover.png"
-    },
-    {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_minus_btn_pressed.png",
         "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\em_smiley_minus_btn_pressed.png"
+    },
+    {
+        "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_007_cover.png",
+        "source": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\src\\main\\res\\drawable-hdpi\\icon_007_cover.png"
     },
     {
         "merged": "C:\\androidWork\\GraduationDesign\\examples\\ChatDemoUI3.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_dx_checkbox_on.png",
