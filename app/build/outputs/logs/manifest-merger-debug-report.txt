@@ -788,12 +788,12 @@ ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\A
 		ADDED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml:429:13-52
 uses-sdk
 INJECTED from C:\androidWork\GraduationDesign\examples\ChatDemoUI3.0\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Scus\.android\build-cache\8b96f99b04d733f66ed826aaac52b02fea18d017\output\AndroidManifest.xml:18:5-42
 MERGED from [ChatDemoUI3.0:easeui:unspecified] C:\androidWork\GraduationDesign\examples\easeui\easeui\build\intermediates\bundles\default\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\Scus\.android\build-cache\13eaa893d5cce93c4dff1b295f0fb7b16a1d34e8\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\Scus\.android\build-cache\319bfdb81bfb5a89e483eef0bf53b9f14e39c25c\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\Scus\.android\build-cache\07b19cef3c046d3abea85f22e3e653b909fd8676\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\Scus\.android\build-cache\9ce5daf0314766c455f248252834d3105bbdfb0e\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Scus\.android\build-cache\8b96f99b04d733f66ed826aaac52b02fea18d017\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-messaging:11.4.0] C:\Users\Scus\.android\build-cache\0bb6e752cac31ad49d2f4c3a4a0d0e6ff9f657ec\output\AndroidManifest.xml:17:5-43
 MERGED from [com.tencent.bugly:crashreport:2.6.6.1] C:\Users\Scus\.android\build-cache\3981e0348339bc6177174c6309dde1a38f9240b3\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\Scus\.android\build-cache\96ede3f478a96bee37daf4804fa1c27f0b43f712\output\AndroidManifest.xml:5:5-7:41

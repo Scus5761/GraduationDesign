@@ -34,6 +34,7 @@ import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chatuidemo.ChatApplication;
 import com.hyphenate.chatuidemo.ChatHelper;
+import com.hyphenate.chatuidemo.MD5Utils;
 import com.hyphenate.chatuidemo.R;
 import com.hyphenate.chatuidemo.db.DemoDBManager;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
@@ -117,8 +118,9 @@ public class LoginActivity extends BaseActivity {
 			return;
 		}
 		String currentUsername = usernameEditText.getText().toString().trim();
+//		Md5加密，目前密码属于明文，防止被监控和盗窃以及服务器直接获取
 		String currentPassword = passwordEditText.getText().toString().trim();
-
+		String md5Password = MD5Utils.Companion.md5Password(passwordEditText.getText().toString().trim());
 		if (TextUtils.isEmpty(currentUsername)) {
 			Toast.makeText(this, R.string.User_name_cannot_be_empty, Toast.LENGTH_SHORT).show();
 			return;
@@ -152,7 +154,7 @@ public class LoginActivity extends BaseActivity {
 		final long start = System.currentTimeMillis();
 		// call login method
 		Log.d(TAG, "EMClient.getInstance().login");
-		EMClient.getInstance().login(currentUsername, currentPassword, new EMCallBack() {
+		EMClient.getInstance().login(currentUsername, md5Password, new EMCallBack() {
 
 			@Override
 			public void onSuccess() {

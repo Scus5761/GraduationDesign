@@ -13,18 +13,19 @@
  */
 package com.hyphenate.chatuidemo.ui;
 
-import com.hyphenate.EMError;
-import com.hyphenate.chat.EMClient;
-import com.hyphenate.chatuidemo.ChatHelper;
-import com.hyphenate.chatuidemo.R;
-import com.hyphenate.exceptions.HyphenateException;
-
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.hyphenate.EMError;
+import com.hyphenate.chat.EMClient;
+import com.hyphenate.chatuidemo.ChatHelper;
+import com.hyphenate.chatuidemo.MD5Utils;
+import com.hyphenate.chatuidemo.R;
+import com.hyphenate.exceptions.HyphenateException;
 
 /**
  * register screen
@@ -47,6 +48,8 @@ public class RegisterActivity extends BaseActivity {
 	public void register(View view) {
 		final String username = userNameEditText.getText().toString().trim();
 		final String pwd = passwordEditText.getText().toString().trim();
+		//		Md5加密，目前密码属于明文，防止被监控和盗窃以及服务器直接获取
+		final String md5Password = MD5Utils.Companion.md5Password(passwordEditText.getText().toString().trim());
 		String confirm_pwd = confirmPwdEditText.getText().toString().trim();
 		if (TextUtils.isEmpty(username)) {
 			Toast.makeText(this, getResources().getString(R.string.User_name_cannot_be_empty), Toast.LENGTH_SHORT).show();
@@ -74,7 +77,7 @@ public class RegisterActivity extends BaseActivity {
 				public void run() {
 					try {
 						// call method in SDK
-						EMClient.getInstance().createAccount(username, pwd);
+						EMClient.getInstance().createAccount(username, md5Password);
 						runOnUiThread(new Runnable() {
 							public void run() {
 								if (!RegisterActivity.this.isFinishing())
